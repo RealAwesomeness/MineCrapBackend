@@ -1,0 +1,35 @@
+{
+  "name": "minecrap-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Minecrap",
+  "main": "MineCrap.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "node-wget": "^0.4.3",
+    "node-cron": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealAwesomeness/MineCrapBackend.git"
+  },
+  "keywords": [
+    "MineCrap",
+    "Crypto",
+    "Profit",
+    "Mining",
+    "AMD",
+    "Nvidia"
+  ],
+  "author": "RealAwesomeness",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/RealAwesomeness/MineCrapBackend/issues"
+  },
+  "homepage": "https://github.com/RealAwesomeness/MineCrapBackend#readme"
+}
