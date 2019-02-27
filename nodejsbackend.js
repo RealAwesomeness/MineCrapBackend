@@ -7,7 +7,7 @@ var app = express();
 	app.use(myParser.urlencoded({extended : true}));
 	app.post("/best", function(request, response) {
 		console.log(request.body); //This prints the JSON document received (if it is a JSON document)
-		exchangeRates.getBest(request.body["coin"], function(best) {
+		exchangeRates.getBest(request.body["hashrate"], request.body["power"], function(best) {
 			response.send(best);
 		});
 
