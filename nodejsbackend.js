@@ -10,7 +10,6 @@ var app = express();
 		exchangeRates.getBest(request.body["hashrate"], request.body["power"], function(best) {
 			response.send(best);
 		});
-
 });
 
 //Start the server and make it listen for connections on port 8080
