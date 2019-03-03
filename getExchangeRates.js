@@ -70,6 +70,7 @@ exports.getBest = function (hashrate,power,callback) {
 			bestWTM = []
 			for (var i = 0; i < 25; i++) {
 				bestWTM.push(JSON.parse(body)["coins"][i]["algorithm"])
+			}
 			callback(bestWTM)
 		}
 		else {
